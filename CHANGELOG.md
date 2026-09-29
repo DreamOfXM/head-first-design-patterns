@@ -3,6 +3,10 @@
 All numbers below are re-counted by the scripts in `scripts/`, not carried over
 from a previous release note.
 
+The four versions were developed in one working session and published as a
+single initial commit, so `v1.0.0`–`v1.2.0` have no tags or release artifacts —
+the split records what changed in which round, not four downloadable builds.
+
 ## [1.3.0] — 2026-09-29
 
 - Added a **Java** skeleton to every pattern position that already had Swift and
