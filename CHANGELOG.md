@@ -3,9 +3,13 @@
 All numbers below are re-counted by the scripts in `scripts/`, not carried over
 from a previous release note.
 
-The four versions were developed in one working session and published as a
-single initial commit, so `v1.0.0`–`v1.2.0` have no tags or release artifacts —
-the split records what changed in which round, not four downloadable builds.
+The four versions were developed in one working session, so they record what
+changed in which round — not four downloadable builds. This repository ships
+from `main` and carries **no git tags and no GitHub Releases**: the install
+paths (`git clone`, `npx skills add Owner/repo`) resolve the default branch and
+pin by content hash in `skills-lock.json`, so nothing resolves a version string
+here. The version truth is `_meta.json` plus this file. Cut a tag only when
+something external starts resolving one.
 
 ## [1.3.0] — 2026-09-29
 
