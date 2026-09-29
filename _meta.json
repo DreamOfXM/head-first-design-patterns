@@ -1,0 +1,24 @@
+{
+  "name": "head-first-design-patterns",
+  "slug": "head-first-design-patterns",
+  "version": "1.3.0",
+  "author": "DreamOfXM",
+  "description": "设计模式的工程判断（《Head First Design Patterns》1st ed.，GoF 23 个全覆盖）。当用户问\"这里要不要用 X 模式 / 该用哪个模式 / 这个类为什么存在 / 这堆 if-else 怎么重构 / 我的抽象是不是过度设计 / 怎么让架构可扩展好测试 / 撤掉这层包装 / 写模式决策记录\"，或在写新模块、改造遗留代码、code review 里争论结构时使用。不适用：单点 bug、纯界面视觉、系统级容量与选型、代码风格、逐屏验收。",
+  "trigger_words": [
+    "这里要不要用 X 模式",
+    "该用哪个模式",
+    "这个类为什么存在",
+    "这堆 if-else 怎么重构",
+    "我的抽象是不是过度设计",
+    "怎么让架构可扩展好测试",
+    "撤掉这层包装",
+    "写模式决策记录"
+  ],
+  "tags": [
+    "design-patterns",
+    "architecture",
+    "refactoring",
+    "code-review",
+    "oo"
+  ]
+}
