@@ -17,7 +17,7 @@ Not a pattern catalog, not a tutorial, not a "use more patterns" scorecard. It i
 1. **Change sentence** — fill in `___ varies; ___ stays; ___ decides it, at ___ time`. No sentence, no pattern.
 2. **Trigger table** — 24 rows of shapes you can actually see in code (type-switched construction, state-branched methods, wrapper constructors, per-handler boilerplate) → candidate pattern **and the cheaper alternative to try first**.
 3. **Restraint ladder L0–L4** — literal → data (enum/transfer table/config) → injectable function → one injected object → pattern-shaped classes. Each promotion must answer: *which file did this turn read-only?*
-4. **Eight-question back-check** — where is the second implementation, is the change nameable or hypothetical, layers added minus branches removed, can the stack trace name the real executor, does object identity survive, who swaps it in tests, does the abstraction leak, and **how many consumers removing this would touch**.
+4. **Eight-question back-check** — second implementation's file, change nameable or a "what if", layers added minus branches removed, real executor visible in the stack trace, object identity intact, who swaps it in tests, abstraction not leaking, and **how many consumer files removing this touches**.
 
 Questions 1, 3 and 8 are counted with `grep`/`git diff`, not eyeballed; question 8 counts consumer files only, so 1 or 0 means the layer bought nothing. The commands are written out in [SKILL.md](SKILL.md).
 

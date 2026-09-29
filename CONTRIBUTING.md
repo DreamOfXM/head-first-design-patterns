@@ -53,14 +53,13 @@ compiler means "not judged for that language column".
   `trigger_words` mirror the phrases inside it. Bump `_meta.json`'s `version` in
   the same commit and add a `CHANGELOG.md` entry with re-counted numbers.
 - Body stays under 500 lines; split into `references/` rather than growing it.
-- README changes come in pairs, and the parity gate compares structure (sections,
-  bullets, tables, rows, fences, badges, external-link set, local paths) rather
-  than wording:
-
-```bash
-python3 ~/.agents/skills/github-readme-best-practices/scripts/readme-parity.py \
-  README.md README.zh-CN.md
-```
+- README changes come in pairs. The parity gate lives in the
+  `github-readme-best-practices` skill (`scripts/readme-parity.py README.md
+  README.zh-CN.md`); it compares structure, not wording — the two halves may
+  read differently as long as they carry the same facts. If you don't have that
+  skill, check parity by hand: same H2 count, same top-level bullet count, same
+  table and row counts, same fence count, badges on the same line number,
+  identical external-link set, and every relative link resolving in both files.
 
 ## Authors note
 
